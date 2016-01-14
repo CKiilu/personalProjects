@@ -1,1 +1,2 @@
 # personalProjects
+Website trial ideas
