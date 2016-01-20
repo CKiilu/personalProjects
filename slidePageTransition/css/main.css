@@ -46,7 +46,7 @@ font-family: 'Lobster', cursive;
 *, body{
     font-family: 'Lobster', cursive;
     background: black;
-    color: green;
+    color: #2199E8;
 }
 a{
     color: green;
@@ -80,5 +80,40 @@ img{
     background: black;
 }
 header{
-    position: fixed;
+    top: 0;
+    opacity:
+}
+.sect{
+    height: 80%;
+    font-size: 2.5em;
+}
+#bod{
+    height: 80vh;
+}
+#home,p{
+    background-color: cadetblue;
+    display: none;
+}
+#about, #about p{
+    background-color: aquamarine;
+    display: none;
+
+}
+#folio, #folio p{
+    background-color: aqua;
+    display: none;
+}
+#home,#home p:target{
+    display: block;
+    z-index: 500;
+}
+#folio:target{
+    display: block;
+    z-index: 500;
+    transform: translateY(-100%);
+}
+#about:target{
+    display: block;
+    z-index: 500;
+    transform: translateY(-100%);
 }
